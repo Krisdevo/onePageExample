@@ -147,6 +147,7 @@ footer, .infobar, .phone, .mail, .location{
 }
 footer{
      color:rgb(249, 245, 245);
+        text-align: center;
 }
 
 
@@ -228,7 +229,7 @@ footer{
 
     footer{
         width: 100%;
-        text-align: center;
+
     }
     .infobar{
         flex-direction: row;
