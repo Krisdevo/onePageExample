@@ -21,13 +21,13 @@ header{
 
 
 .banner{
-    background: url(./images/banner.jpg) no-repeat center/cover ;
-    height: 100px;
+    background: url(./images/bread-2432090_1280.jpg) no-repeat center/cover ;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
 }
 
 h1{
@@ -35,10 +35,11 @@ h1{
     font-size: 3rem;
     font-family: 'Rouge script';
     font-weight: 500;
+
 }
 
 h2{
-    margin: 1rem 0;
+    margin: 2rem 0;
     text-align: center;
     color: rgb(249, 245, 245);
     font-weight: 600;
@@ -75,7 +76,9 @@ nav a:hover, footer a:hover{
 
 #shop .card{
     margin: 1rem 0;
+    height: 100%;
 }
+
 
 .carousel{
     width: 90%;
@@ -176,3 +179,65 @@ footer{
 	animation-range: 0 10%;
 }
 
+
+@media screen and (min-width: 744px) {
+
+    .banner{
+        height: 250px;
+    }
+
+    h1{
+        font-size: 4rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    p, a{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1000px){
+
+    #shop{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+        margin: 3rem 0;
+    }
+
+    h2{
+        margin: 3rem 0;
+    }
+
+
+    #shop .card{
+        width: 30%;
+    }
+
+    .carousel{
+        width: 75%;
+        height: auto;
+    }
+
+    footer{
+        width: 100%;
+        text-align: center;
+    }
+    .infobar{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+
+
+}
