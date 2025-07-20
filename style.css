@@ -229,15 +229,23 @@ footer{
 
     footer{
         width: 100%;
+        text-align: center;
 
     }
     .infobar{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         width: 100%;
-        flex-basis: 0;
-        flex-grow: 1;
+        gap: 16rem;
+    }
+
+    .mail{
+        margin-left:4rem;
+    }
+
+    .location{
+        margin-top: 3rem;
     }
 
 
